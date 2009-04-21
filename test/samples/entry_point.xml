@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<HGOnSiteArticle iid="36334" lang="en" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" schemaLocation="http://schema.epnet.com/hgonsitearticle.xsd">
+  <FrontMatter>
+    <Title>Content Selection List</Title>
+    <HGID>/contentSelection/collectionindex</HGID>
+    <CoreCollection>20</CoreCollection>
+    <VersionLink>
+      <ArticleLink linkto="version_language_spanish" docid="/spanish/pretoggle/contentSelection/collectionindex" chunkiid="126501">En Español (Spanish Version)</ArticleLink>
+    </VersionLink>
+    <ArticleType>RudimentaryIndex</ArticleType>
+  </FrontMatter>
+  <ArticleBody>
+    <LinkList>
+      <ListHeader>Content Selection</ListHeader>
+      <ArticleLink docid="/dci/index" chunkiid="33341" linkto="doc">Conditions InBrief</ArticleLink>
+      <ArticleLink docid="/hic/default" linkto="doc" chunkiid="33715">Conditions InFull</ArticleLink>
+    </LinkList>
+  </ArticleBody>
+  <BackMatter>
+    <LastReview>
+      <ReviewerName>
+        <ArticleLink docid="/healthy/living/edstaff" linkto="doc" chunkiid="14072">EBSCO Publishing Editorial Staff</ArticleLink>
+      </ReviewerName>
+      <ReviewDate>June 2007</ReviewDate>
+    </LastReview>
+  </BackMatter>
+</HGOnSiteArticle>
