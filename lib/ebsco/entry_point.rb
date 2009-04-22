@@ -1,4 +1,4 @@
-module Ebsco
+module EbscoService
 
   class TextNode
     def self.parse(xml, options={})

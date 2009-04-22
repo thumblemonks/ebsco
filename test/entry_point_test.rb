@@ -1,12 +1,10 @@
 require 'test_helper'
 
 class EntryPointTest < Test::Unit::TestCase
-  def sample_file
-    File.read(File.dirname(__FILE__) + '/samples/entry_point.xml')
-  end
+  # sample :entry_point # I want to do this, but cannot elegantly
 
   def setup
-    @site_article = Ebsco::SiteArticle.parse(sample_file)
+    @site_article = Ebsco::SiteArticle.parse(read_sample_file(:entry_point))
   end
 
   should("define iid attribute") { assert_equal 36334, @site_article.iid }
