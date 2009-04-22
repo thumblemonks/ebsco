@@ -13,7 +13,12 @@ class Ebsco
     end
 
     def index
-      EbscoService::SiteArticle.parse get('/hgwebservice/HGWebservice.asmx/GetHgEntryPoint').body
+      EbscoService::SiteArticle.parse get('http://webservices.epnet.com/hgwebservice/HGWebservice.asmx/GetHgEntryPoint').body
+    end
+
+    def article(chunkiid)
+      puts "EBSCO: #{{"ChunkIID" => chunkiid}.inspect}"
+      get('http://webservices.healthgate.com/healthinfo/Library.asmx/GetArticle', {"ChunkIID" => chunkiid}).body
     end
   end
 end
