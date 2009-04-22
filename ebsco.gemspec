@@ -17,11 +17,13 @@ Gem::Specification.new do |s|
     MIT-LICENSE
     README.markdown
     Rakefile
+    ebsco.gemspec
     lib/ebsco.rb
     lib/ebsco/entry_point.rb
   ]
   
   s.test_files = %w[
+    test/ebsco_test.rb
     test/entry_point_test.rb
     test/samples/entry_point.xml
     test/test_helper.rb
