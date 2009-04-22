@@ -6,6 +6,10 @@ require 'mocha'
 require 'ebsco'
 require 'ruby-debug'
 
+class String
+  alias_method :body, :to_s
+end
+
 class Test::Unit::TestCase
   def read_sample_file(base_filename)
     File.read(File.dirname(__FILE__) + "/samples/#{base_filename}.xml")

@@ -13,7 +13,7 @@ class Ebsco
     end
 
     def index
-      EbscoService::SiteArticle.parse get('/hgwebservice/HGWebservice.asmx/GetHgEntryPoint')
+      EbscoService::SiteArticle.parse get('/hgwebservice/HGWebservice.asmx/GetHgEntryPoint').body
     end
   end
 end
